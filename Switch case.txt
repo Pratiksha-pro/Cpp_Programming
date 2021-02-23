@@ -1,0 +1,41 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	//local variable declaration
+
+	int a=10,b=20,c=0;
+
+	char ch;
+	ch='p';
+
+	switch(ch)
+	{
+	case 'p':
+
+		c=a+b;
+		cout<<"value of c is"<<c<<endl;
+		break;
+
+	case 's':
+
+                c=a-b;
+                cout<<"value of c is"<<c<<endl;
+                break;
+
+	case 'y':
+
+                c=a*b;
+                cout<<"value of c is"<<c<<endl;
+                break;
+
+	case 'x':
+
+                c=a/b;
+                cout<<"value of c is"<<c<<endl;
+                default:
+
+	cout<<"invalid opt"<<endl;
+	}
+}
+
