@@ -1,0 +1,70 @@
+#include<iostream>
+using namespace std;
+
+	int main()
+	{
+		int a=12;
+		int b=12;
+
+		cout<<"A="<<a<<endl;
+		cout<<"B="<<b<<endl;
+
+	if(a==b)
+	{
+		cout<<"statement is true"<<endl;
+	}
+	else
+	{
+		cout<<"statement is false"<<endl;
+	}
+
+       if(a!=b)
+        {
+                cout<<"statement is true"<<endl;
+        }
+        else
+        {
+                cout<<"statement is false"<<endl;
+        }
+
+
+       if(a>b)
+        {
+                cout<<"statement is true"<<endl;
+        }
+        else
+        {
+                cout<<"statement is false"<<endl;
+        }
+
+
+       if(a<b)
+        {
+                cout<<"statement is true"<<endl;
+        }
+        else
+        {
+                cout<<"statement is false"<<endl;
+        }
+
+
+       if(a>=b)
+        {
+                cout<<"statement is true"<<endl;
+        }
+        else
+        {
+                cout<<"statement is false"<<endl;
+        }
+
+       if(a<=b)
+        {
+                cout<<"statement is true"<<endl;
+        }
+        else
+        {
+                cout<<"statement is false"<<endl;
+        }
+
+	return 0;
+}
