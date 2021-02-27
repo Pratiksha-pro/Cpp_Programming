@@ -1,0 +1,22 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	int a=20;
+	int b=24;
+	int c=0;
+		c=a+b;
+		cout<<"Addition of no. is:"<<c<<endl;
+
+		c=a-b;
+		cout<<"Substraction of no. is:"<<c<<endl;
+
+		c=a*b;
+		cout<<"Multiplication of no. is:"<<c<<endl;
+
+		c=a/b;
+		cout<<"Division of no. is:"<<c<<endl;
+
+		c=a%b;
+		cout<<"Module of no. is:"<<c<<endl;
+}
