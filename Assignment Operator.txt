@@ -1,0 +1,27 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	int a=50;
+	int b=70;
+
+	a=b;
+	cout<<"line 1 - the value of a is:"<<a<<endl;     //value of b is assigned to a.\
+
+	 a+=b;
+        cout<<"line 2 - the value of a is:"<<a<<endl;     
+
+
+       a-=b;
+        cout<<"line 3 - the value of a is:"<<a<<endl;     
+
+       a*=b;
+        cout<<"line 4 - the value of a is:"<<a<<endl;     
+
+       a/=b;
+        cout<<"line 5 - the value of a is:"<<a<<endl;     
+
+	a%=b;
+        cout<<"line 6 - the value of a is:"<<a<<endl;     
+
+}
